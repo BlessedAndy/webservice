@@ -11,7 +11,7 @@ public class Client {
 	public static void main(String[] args) {
 		URL url;
 		try {
-			url = new URL("http://localhost:8888/ns?wsdl");
+			url = new URL("http://localhost:7777/ns?wsdl");
 			QName sname = new QName("http://webservice.aitequ.com/","MyServiceImpService");
 			Service service = Service.create(url, sname);
 			 

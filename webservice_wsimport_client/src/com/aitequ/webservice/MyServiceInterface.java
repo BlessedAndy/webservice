@@ -26,38 +26,38 @@ public interface MyServiceInterface {
 
     /**
      * 
-     * @param arg1
-     * @param arg0
+     * @param a
+     * @param b
      * @return
      *     returns int
      */
     @WebMethod
-    @WebResult(targetNamespace = "")
+    @WebResult(name = "addResult", targetNamespace = "")
     @RequestWrapper(localName = "add", targetNamespace = "http://webservice.aitequ.com/", className = "com.aitequ.webservice.Add")
     @ResponseWrapper(localName = "addResponse", targetNamespace = "http://webservice.aitequ.com/", className = "com.aitequ.webservice.AddResponse")
     @Action(input = "http://webservice.aitequ.com/MyServiceInterface/addRequest", output = "http://webservice.aitequ.com/MyServiceInterface/addResponse")
     public int add(
-        @WebParam(name = "arg0", targetNamespace = "")
-        int arg0,
-        @WebParam(name = "arg1", targetNamespace = "")
-        int arg1);
+        @WebParam(name = "a", targetNamespace = "")
+        int a,
+        @WebParam(name = "b", targetNamespace = "")
+        int b);
 
     /**
      * 
-     * @param arg1
-     * @param arg0
+     * @param a
+     * @param b
      * @return
      *     returns int
      */
     @WebMethod
-    @WebResult(targetNamespace = "")
+    @WebResult(name = "minusResult", targetNamespace = "")
     @RequestWrapper(localName = "minus", targetNamespace = "http://webservice.aitequ.com/", className = "com.aitequ.webservice.Minus")
     @ResponseWrapper(localName = "minusResponse", targetNamespace = "http://webservice.aitequ.com/", className = "com.aitequ.webservice.MinusResponse")
     @Action(input = "http://webservice.aitequ.com/MyServiceInterface/minusRequest", output = "http://webservice.aitequ.com/MyServiceInterface/minusResponse")
     public int minus(
-        @WebParam(name = "arg0", targetNamespace = "")
-        int arg0,
-        @WebParam(name = "arg1", targetNamespace = "")
-        int arg1);
+        @WebParam(name = "a", targetNamespace = "")
+        int a,
+        @WebParam(name = "b", targetNamespace = "")
+        int b);
 
 }
