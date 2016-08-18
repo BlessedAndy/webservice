@@ -15,7 +15,7 @@ public class Client {
 			QName sname = new QName("http://webservice.aitequ.com/","MyServiceImpService");
 			Service service = Service.create(url, sname);
 			 
-			MyServiceInterface si = service.getPort(MyServiceImp.class);
+			MyServiceInterface si = service.getPort(MyServiceInterface.class);
 			System.out.println(si.add(12, 17));
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
