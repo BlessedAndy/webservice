@@ -19,4 +19,13 @@ public class MyServiceImp implements MyServiceInterface {
 		return a - b;
 	}
 
+	@Override
+	public User login(String username, String password) {
+		System.out.println("UserName : "+ username + " PassWord : "+ password);
+		User user = new User();
+		user.setUsername(username);
+		user.setPassword(password);
+		return user;
+	}
+
 }
