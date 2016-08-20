@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persons SYSTEM "Persons.dtd" >
+<persons>
+  <person id="idvalue0">
+    <sex>sex</sex>
+    <name>name</name>
+    <age>age</age>
+    <messages>
+      <message>
+        <title>title</title>
+        <content>content</content>
+      </message>
+    </messages>
+  </person>
+</persons>

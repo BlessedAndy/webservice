@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE classroom SYSTEM "ClassRoom.dtd">
+<classroom id="classroom1">
+	<ClaName>CS</ClaName>
+	<grade>2012</grade>
+	<students>
+		<student>
+			<id>123</id>
+			<StuName>andy</StuName>
+			<age>27</age>
+		</student>
+		<student>
+			<id>234</id>
+			<StuName>bonnie</StuName>
+			<age>25</age>
+		</student>
+	</students>
+
+</classroom>
