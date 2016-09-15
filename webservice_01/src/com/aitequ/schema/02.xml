@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user 
+        xlmns="http://www.aitequ.com/Schema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+		xsi:noNamespaceSchemaLocation="Schema.xsd">
+		<id>1</id>
+		<name>bonnie</name>
+		<birthday>1991-10-01</birthday>
+</user>
